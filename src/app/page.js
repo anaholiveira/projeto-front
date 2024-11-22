@@ -20,7 +20,7 @@ export default function Home() {
                 </div>
             </div>
 
-      <p className={styles.paragrafo}>Hanni (하니) é uma das integrantes do grupo de K-pop <span className={styles.span1}>NewJeans</span>. É uma das cantoras e dançarinas do grupo, ela tem chamado bastante atenção pela sua personalidade carismática, sua energia no palco e seu visual adorável.</p>
+      <p className={styles.paragrafo}>Hanni (하니) é uma das integrantes do grupo de K-pop NewJeans. É uma das cantoras e dançarinas do grupo, ela tem chamado bastante atenção pela sua personalidade carismática, sua energia no palco e seu visual adorável.</p>
 
       <h2 className={styles.subtitulo}>˙⋆ O NewJeans ⋆˙</h2>
 
