@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import styles from "./Header.module.css"
+import Image from "next/image";
 
 export default function Header() {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -13,8 +14,8 @@ export default function Header() {
     return (
         <header className={`${styles.header} ${menuAberto ? styles.headerExpandido : ''}`}>
 
-            <div className={`${styles.pHeaderDiv} ${menuAberto ? styles.esconderPheader : ''}`}>
-                <p className={styles.pheader}>NewJeans</p>
+            <div className={`${styles.logoDiv} ${menuAberto ? styles.esconderLogo : ''}`}>
+                <Image className={styles.logo} src ='/images/logonj.png' alt="logo" width={140} height={90}></Image>
             </div>
 
             <div className={styles.menuLeft}>

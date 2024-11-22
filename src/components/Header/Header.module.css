@@ -10,24 +10,15 @@
     transition: padding 0.3s ease;
 }
 
-.pHeaderDiv {
+.logoDiv {
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.pheader {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    color: black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-family: Nerko One, cursive;
+.logo {
     display: flex;
-    text-align: center;
     padding: 15px;
-    font-size: 30px;
     margin-left: 20px;
     transition: .2s;
 }
@@ -93,9 +84,10 @@
 }
 
 @media (max-width: 600px) {
-    .pheader {
-        margin-left: 70px;
-        font-size: 30px;
+    .logo {
+        margin-left: 50px;
+        width: 140px;
+        height: 80px;
     }
 
     .menuLeft {
@@ -121,13 +113,13 @@
         padding: 30px 10px;
     }
     
-    .esconderPheader {
+    .esconderLogo {
         display: none;
     }
 }
 
 @media (min-width: 601px) {
-    .pHeaderDiv {
+    .logoDiv {
         display: flex;
         flex-grow: 1;
     }
