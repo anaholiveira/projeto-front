@@ -1,0 +1,145 @@
+.titulo {
+    color: white;
+    font-family: Nerko One, cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.subtitulo {
+    color: white;
+    font-family: Nerko One, cursive;
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+}
+
+.paragrafo {
+    color: white;
+    font-size: 28px;
+    font-family: Kalam, cursive;
+    text-align: center;
+    padding: 3px;
+    margin: 18px;
+}
+
+.img {
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgb(255, 165, 217);
+    min-width: 35px;
+    max-width: 200px;
+    width: 30vw;
+    margin: auto;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.table{
+    border-collapse: collapse;
+    border: solid, 2px var(--cor3);
+    background-color: var(--cor2);
+    width: 50vw;
+    height: 10vh;
+    margin: auto;
+    box-shadow: 0 8px 10px rgb(255, 227, 247);
+    margin-bottom: 50px;
+    min-width: 45vw;
+    max-width: 90vw;
+    table-layout: fixed;
+}
+
+.thead{
+    height: 4.5vh;
+    background-color: var(--cor3);
+}
+
+.th{
+    color: white;
+    border: solid, 2px var(--cor3);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Nerko One, cursive;
+}
+
+.td{
+    border: solid, 1px var(--cor3);
+    text-align: center;
+    font-size: 2.5vh;
+    max-height: 3vh;
+    min-height: 2.5vh;
+    padding: 5px;
+    font-family: Kalam, cursive;
+    color: rgb(255, 235, 247);
+}
+
+.tr{
+    border: solid, 1px var(--cor3);
+}
+
+.table tr:nth-child(even){
+    background-color: var(--cor1);
+}
+
+.infos {
+    border: solid, 1px var(--cor3);
+    text-align: center;
+    font-size: 2.5vh;
+    max-height: 3vh;
+    min-height: 2.5vh;
+    padding: 5px;
+    font-family: Kalam, cursive;
+    font-weight: bold;
+    color: rgb(172, 16, 102);
+}
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .subtitulo {
+        font-size: 28px;
+        padding: 8px;
+    }
+    .paragrafo {
+        font-size: 20px;
+        padding: 2px;
+        margin: 10px;
+    }
+    .fotos {
+        display: flex;
+        gap: 3px;
+    }
+    .img {
+        min-width: 25px;
+        max-width: 170px;
+        width: 30vw;
+        height: 130px;
+    }
+    .table {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .th {
+        font-size: 22px;
+    }
+    .td {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .infos {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1366px) {
+    .table {
+        width: 90%;
+        min-width: 45vw;
+        max-width: 90vw;
+    }
+}

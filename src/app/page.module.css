@@ -1,0 +1,93 @@
+.img {
+  border-radius: 20px;
+  box-shadow: 0 5px 8px rgb(255, 165, 217);
+  min-width: 35px;
+  max-width: 200px;
+  width: 30vw;
+  margin: auto;
+}
+
+.titulo {
+  color: white;
+  font-family: Nerko One, cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitulo {
+  color: white;
+  font-family: Nerko One, cursive;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.paragrafo {
+  color: white;
+  font-size: 28px;
+  font-family: Kalam, cursive;
+  text-align: center;
+  padding: 3px;
+  margin: 25px;
+}
+
+.span {
+  background-image: linear-gradient(to bottom, rgb(255, 124, 196), rgb(255, 0, 136));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.imgnewjeans {
+  box-shadow: 0 8px 10px rgb(255, 227, 247);
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 35px;
+    padding: 10px;
+  }
+
+  .subtitulo {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .paragrafo {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .span {
+    font-size: 18px;
+  }
+
+  .fotos {
+    display: flex;
+    gap: 3px;
+  }
+
+  .img {
+    min-width: 25px;
+    max-width: 170px;
+    width: 30vw;
+    height: 130px;
+  }
+
+  .imgnewjeans {
+    width: 80%;
+    height: auto;
+  }
+}
