@@ -1,7 +1,7 @@
 'use client'
-import { useState } from "react"
-import Link from "next/link"
-import styles from "./Header.module.css"
+import { useState } from "react";
+import Link from "next/link";
+import styles from "./Header.module.css";
 import Image from "next/image";
 
 export default function Header() {

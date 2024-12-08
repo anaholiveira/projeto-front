@@ -7,18 +7,18 @@ export default function Home() {
       <h1 className={styles.titulo}> ˙⋆ Hanni 𐙚 ⋆˙ </h1>
 
       <div className={styles.fotos}>
-                <div>
-                    <Image className={styles.img} src='/images/heart1.jpg' alt="Imagem 01" width={240} height={170} / >
-                </div>
+        <div>
+            <Image className={styles.img} src='/images/heart1.jpg' alt="Imagem 01" width={240} height={170} / >
+        </div>
 
-                <div>
-                    <Image className={styles.img} src='/images/gifhanni.gif' alt="Imagem 02" width={240} height={170} / >
-                </div>
+        <div>
+          <Image className={styles.img} src='/images/gifhanni.gif' alt="Imagem 02" width={240} height={170} / >
+        </div>
 
-                <div>
-                    <Image className={styles.img} src='/images/heart2.jpg' alt="Imagem 03" width={240} height={170} / >
-                </div>
-            </div>
+        <div>
+          <Image className={styles.img} src='/images/heart2.jpg' alt="Imagem 03" width={240} height={170} / >
+          </div>
+      </div>
 
       <p className={styles.paragrafo}>Hanni (하니) é uma das integrantes do grupo de K-pop NewJeans. É uma das cantoras e dançarinas do grupo, ela tem chamado bastante atenção pela sua personalidade carismática, sua energia no palco e seu visual adorável.</p>
 
