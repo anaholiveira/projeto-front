@@ -26,7 +26,7 @@ export default function Home() {
 
       <Image className={styles.imgnewjeans} src='/images/njpink.jpg' alt="Imagem NewJeans" width={590} height={280} / >
 
-      <p className={styles.paragrafo}>NewJeans (hangul: 뉴진스) é um girl group sul-coreano formado pela ADOR, uma subsidiária da Hybe Corporation. O grupo é composto por cinco integrantes: Minji, <span className={styles.span}>Hanni</span>, Danielle, Haerin e Hyein. O grupo, conhecido por sua sonoridade fresca e influências da música pop dos anos 2000, rapidamente se destacou na cena do K-pop. O nome do fandom internacional é <span className={styles.span}>Bunnies</span>, que significa coelhos em inglês e pro fandom coreano é <span className={styles.span}>Tokki</span>, que também é coelho.</p>
+      <p className={styles.paragrafo}>NewJeans (뉴진스) é um girl group sul-coreano formado pela ADOR, uma subsidiária da Hybe Corporation. O grupo é composto por cinco integrantes: Minji, <span className={styles.span}>Hanni</span>, Danielle, Haerin e Hyein. O grupo, conhecido por sua sonoridade fresca e influências da música pop dos anos 2000, rapidamente se destacou na cena do K-pop. O nome do fandom internacional é <span className={styles.span}>Bunnies</span>, que significa coelhos em inglês e pro fandom coreano é <span className={styles.span}>Tokki</span>, que também é coelho.</p>
 
     </div>
   );
