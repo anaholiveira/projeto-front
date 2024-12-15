@@ -1,6 +1,6 @@
 import styles from "./carreira.module.css";
 
-const Carreira = () => {
+export default function Carreira() {
     return (
         <main>
             <h1 className={styles.titulo}>˙⋆ Carreira ⋆˙</h1>
@@ -38,5 +38,3 @@ const Carreira = () => {
         </main>
     );
 }
-
-export default Carreira;

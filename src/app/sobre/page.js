@@ -1,7 +1,7 @@
 import styles from "./sobre.module.css";
 import Image from "next/image";
 
-const Sobre = () => {
+export default function Sobre() {
     return (
         <main>
             <h1 className={styles.titulo}>˙⋆ Sobre Hanni ⋆˙</h1>
@@ -79,5 +79,3 @@ const Sobre = () => {
         </main>
     );
 }
-
-export default Sobre;
